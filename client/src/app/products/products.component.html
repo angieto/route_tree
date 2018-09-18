@@ -1,0 +1,8 @@
+<!-- Route to a children route -->
+<div class="container">
+    <a [routerLink] = "['details', 5]"> Go to /products/details/5 </a> <br>
+    <a [routerLink]="[ 'category', 3 ]">Go to /products/category/3</a> <br>
+    <a [routerLink]="[ 'brand', 1 ]">Go to the /products/brand/1</a> <br>
+</div>
+<router-outlet></router-outlet>
+
